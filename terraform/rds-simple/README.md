@@ -1,6 +1,5 @@
 # RDS Simple Example
-This example creates an RDS instance using Terraform. It creates an instance,  
-and assigns it a custom parameters group with modified parameters.
+This example creates an RDS instance using Terraform.
 
 > Note: This example provisions a MySQL 5.7 version.
 
@@ -17,8 +16,6 @@ and assigns it a custom parameters group with modified parameters.
    
    `symphony_ip`: The IP of your Symphony region
    
-   `access_key` and `secret_key`: To get these values, start the Symphony GUI.
-   
-   In the upper right corner of the GUI, click **Hi username** > **Access Keys**.
+   `access_key` and `secret_key`: To get these values, start the Symphony GUI. In the upper right corner of the GUI, click **Hi username** > **Access Keys**.
    
 4. Run `terraform apply`.
