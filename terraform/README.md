@@ -3,6 +3,8 @@ Examples of using the Terraform AWS provider against Stratoscale Symphony
 
 ## Before You Begin - Symphony Setup
 
+Here are the setup tasks you need to do using the Symphony GUI, before you can run Terraform against Symphony.
+
 ### Create a dedicated VPC-enabled project for Terraform
 
 Before you can use Terraform against Stratoscale Symphony, you need to create a Symphony project that is dedicated for use only by the AWS API (including Terraform):
