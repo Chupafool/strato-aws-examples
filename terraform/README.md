@@ -3,7 +3,7 @@ Examples of using the Terraform AWS provider against Stratoscale Symphony
 
 ## Before You Begin - Symphony Setup
 
-Here are the setup tasks you need to do using the Symphony GUI, before you can run Terraform against Symphony.
+Here are the setup tasks you need to do within the Symphony GUI, before you can run Terraform against Symphony.
 
 ### Create a dedicated VPC-enabled project for Terraform
 
@@ -35,7 +35,7 @@ Specify a name (such as "Terraform" in this example) and optional description fo
 
 2. Associate an existing user with the Terraform project:
 
-Highlight the Terraform project you just created > **Assign Users**: 
+Highlight the Terraform project you just created, then click **Assign Users**: 
 
 Fill in these fields:
 
@@ -45,7 +45,7 @@ Project Roles: select Tenant Admin
 
 3. Provision a VPC for the Terraform project.
 
-Click the **name** of the project to display the details page > **Provision VPC**
+Click the **name** of the project to display the details page, then click **Provision VPC**
 
 From the Edge Network drop down menu, select a shared edge network.
 
