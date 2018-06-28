@@ -69,7 +69,7 @@ The system displays the Access and Secret keys. To copy each key to the clipboar
 
 ### Get the AWS ID for an image
 
-Whenever you want to use Terraform to create an instance in Symphony, you need to pass in the AMI ID of the image.
+Whenever you want to use Terraform to create an instance in Symphony, you need to pass in the AMI ID of the image. This ID needs to be in AWS ID format.
 
 To get the AWS ID from Symphony:
 
