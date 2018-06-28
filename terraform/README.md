@@ -82,7 +82,7 @@ ami-1b8ecb82893a4d1f9d500ce33d90496c
 Tip: If you see a truncated version of the ID that ends in an ellipsis (three dots) ... then change the resolution of your screen so that the letters and numbers are very small, and you should be able to see and copy the whole ID.
 
 
-## Usage Guidelines
+## How to Use
 1. To easily configure an example to work against your environment, modify the `terrafrom.tfvars` file with the proper values.
 
 2. Make sure you have the latest Terraform version deployed.
