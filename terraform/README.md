@@ -29,49 +29,49 @@ You also associate this project with a Symphony shared edge network, which becom
 
 1. Within the Symphony GUI, create the project: 
 
-**Menu** > **Account Management** > **Accounts** > select an account > **Create Project**
+    **Menu** > **Account Management** > **Accounts** > select an account > **Create Project**
 
-Specify a name (such as "Terraform" in this example) and optional description for the project.
+    Specify a name (such as "Terraform" in this example) and optional description for the project.
 
 2. Associate an existing user with the Terraform project:
 
-Highlight the Terraform project you just created, then click **Assign Users**: 
+    Highlight the Terraform project you just created, then click **Assign Users**: 
 
-Fill in these fields:
+    Fill in these fields:
 
-User: select a user from the drop down list
+    User: select a user from the drop down list
 
-Project Roles: select Tenant Admin
+    Project Roles: select Tenant Admin
 
 3. Provision a VPC for the Terraform project.
 
-Click the **name** of the project to display the details page, then click **Provision VPC**
+    Click the **name** of the project to display the details page, then click **Provision VPC**
 
-From the Edge Network drop down menu, select a shared edge network.
+    From the Edge Network drop down menu, select a shared edge network.
 
-**Important** 
+    **Important** 
 
-This edge network serves as the default internet gateway for the VPC that you are associating with this project. So, at this point, the VPC associated with the Terraform project you just created contains:
+    This edge network serves as the default internet gateway for the VPC that you are associating with this project. So, at this point, the VPC associated with the Terraform project you just created contains:
 
-* A default internet gateway
+    * A default internet gateway
 
-* A default subnet
+    * A default subnet
 
-* A default route table
+    * A default route table
 
 4. Next, you need to create credentials (access and secret key) for accessing this VPC from Terraform. Note that each project has its own access/secret keys. This means that when you pass in these keys to Terraform, you are telling Terraform what Symphony VPC/project to access.
 
-To create access keys for the Terraform project:
+    **To create access keys for the Terraform project:**
 
-Click Hi *user_name* > Access Keys > Create
+    Click **Hi *user_name* > Access Keys > Create**
 
-The system displays the Access and Secret keys. To copy each key to the clipboard, click the clipboard icon to the right of the key. 
+    The system displays the Access and Secret keys. To copy each key to the clipboard, click the clipboard icon to the right of the key. 
 
 ### Get the AWS ID for an image
 
 Whenever you want to use Terraform to create an instance in Symphony, you need to pass in the AMI ID of the image. This ID needs to be in AWS ID format.
 
-To get the AWS ID from Symphony:
+**To get the AWS ID from Symphony:**
 
 From within the GUI, click **Menu** > **Applications** > **Images**
 
